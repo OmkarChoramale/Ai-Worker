@@ -5,55 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Nexus</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'brand-background': '#0B0F1A',
-              'brand-primary': '#8E2DE2',
-              'brand-secondary': '#00D4FF',
-              'brand-text': '#E0E0FF',
-            },
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              poppins: ['Poppins', 'sans-serif'],
-              grotesk: ['Space Grotesk', 'sans-serif'],
-            },
-            boxShadow: {
-              'glow-primary': '0 0 15px 5px rgba(142, 45, 226, 0.4)',
-              'glow-secondary': '0 0 15px 5px rgba(0, 212, 255, 0.4)',
-            }
-          },
-        },
-      }
-    </script>
-    <style>
-      body {
-        background-color: #0B0F1A;
-        color: #E0E0FF;
-        font-family: 'Inter', sans-serif;
-      }
-      .custom-scrollbar::-webkit-scrollbar {
-        width: 8px;
-      }
-      .custom-scrollbar::-webkit-scrollbar-track {
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 10px;
-      }
-      .custom-scrollbar::-webkit-scrollbar-thumb {
-        background: rgba(142, 45, 226, 0.5);
-        border-radius: 10px;
-      }
-      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-        background: rgba(142, 45, 226, 0.8);
-      }
-    </style>
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
@@ -62,9 +18,11 @@
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
     "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
     "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
     "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
-    "react-resizable-panels": "https://aistudiocdn.com/react-resizable-panels@^3.0.6"
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "react-resizable-panels": "https://aistudiocdn.com/react-resizable-panels@^3.0.6",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0"
   }
 }
 </script>
