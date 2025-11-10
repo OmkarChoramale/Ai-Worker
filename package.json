@@ -15,7 +15,8 @@
     "react-markdown": "^10.1.0",
     "lucide-react": "^0.553.0",
     "react-router-dom": "^7.9.5",
-    "framer-motion": "^12.23.24"
+    "framer-motion": "^12.23.24",
+    "react-resizable-panels": "^3.0.6"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

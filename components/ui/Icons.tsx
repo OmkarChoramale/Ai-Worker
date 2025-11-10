@@ -87,3 +87,11 @@ export const DocumentAnalyzerIcon = () => (
 export const TranslatorIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m12 18 4 4 4-4"/><path d="M16 22V9a2 2 0 0 1 2-2h2"/></svg>
 );
+
+export const MeetingCopilotIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8" /><path d="M12 17v4" /><path d="m12 8 1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5z"/></svg>
+);
+
+export const LiveMeetingCopilotIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8" /><path d="M12 17v4" /><circle cx="12" cy="10" r="1" /><path d="M14.121 12.121a3 3 0 1 0-4.242-4.242" /><path d="M16.243 14.243a6 6 0 1 0-8.486-8.486" /></svg>
+);

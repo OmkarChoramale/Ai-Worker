@@ -4,18 +4,20 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-40 w-full bg-brand-background/60 backdrop-blur-lg border-b border-white/10">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <div className="flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="h-8 w-8 text-brand-primary"
-          >
-            <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M12 2v7"/>
+        <div className="flex items-center gap-3">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8">
+            <defs>
+              <linearGradient id="logo-gradient-ai" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#8E2DE2" />
+                <stop offset="1" stopColor="#00D4FF" />
+              </linearGradient>
+            </defs>
+            <path d="M16 2C8.268 2 2 8.268 2 16C2 23.732 8.268 30 16 30C23.732 30 30 23.732 30 16C30 8.268 23.732 2 16 2Z" stroke="url(#logo-gradient-ai)" strokeWidth="1.5" />
+            <path d="M16 11.5C18.4853 11.5 20.5 13.5147 20.5 16C20.5 18.4853 18.4853 20.5 16 20.5C13.5147 20.5 11.5 18.4853 11.5 16C11.5 13.5147 13.5147 11.5 16 11.5Z" stroke="white" strokeOpacity="0.8" strokeWidth="1.5" />
+            <path d="M20.5 16H25" stroke="url(#logo-gradient-ai)" strokeWidth="2" strokeLinecap="round" />
+            <path d="M23 11L20.5 13.5" stroke="url(#logo-gradient-ai)" strokeWidth="2" strokeLinecap="round" />
+            <path d="M23 21L20.5 18.5" stroke="url(#logo-gradient-ai)" strokeWidth="2" strokeLinecap="round" />
+            <circle cx="25" cy="16" r="1.5" fill="url(#logo-gradient-ai)" />
           </svg>
           <h1 className="text-2xl font-bold font-grotesk tracking-tighter text-white">AI Nexus</h1>
         </div>
